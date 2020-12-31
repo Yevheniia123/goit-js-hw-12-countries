@@ -2,10 +2,12 @@ import { debounce } from 'debounce';
 import countryCards from './templates/country.hbs';
 import countriesList from './templates/countries.hbs';
 
-// import fetchCountries from './js/fetchCountries';
+// import fetchCountries from './js/fetchCountries.js';
 
 import { alert, defaultModules } from '@pnotify/core';
 import * as PNotifyMobile from '@pnotify/mobile';
+import '@pnotify/core/dist/PNotify.css';
+import '@pnotify/core/dist/BrightTheme.css';
 
 const containerRef = document.querySelector('.countries-container');
 const inputRef = document.querySelector('.input');
